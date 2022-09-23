@@ -62,6 +62,9 @@ To save time in this process, the IT team suggested an ML system that is capable
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
+https://en.wikipedia.org/wiki/Powdery_mildew
+http://treefruit.wsu.edu/crop-protection/disease-management/cherry-powdery-mildew/#:~:text=Powdery%20mildew%20of%20sweet%20and,1).
+
 ### Media
 
 - The photos used on the home and sign up page are from This Open Source site

@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
+import tensorflow as tf
 import plotly.express as px
 from tensorflow.keras.models import load_model
 from PIL import Image
@@ -49,9 +50,9 @@ def load_model_and_predict(my_image, version):
     Load and perform ML prediction over live images
     """
 
-    model = load_model(f"outputs/{version}/malaria_detector_model.h5")
-
+    model = load_model(f"outputs/{version}/mildew_project_model.h5")
     pred_proba = model.predict(my_image)[0,0]
+    print(pred_proba)
 
     target_map = {v: k for k, v in {'Parasitized': 0, 'Uninfected': 1}.items()}
     pred_class =  target_map[pred_proba > 0.5]  
