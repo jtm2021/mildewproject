@@ -30,7 +30,7 @@ def page_leaves_visualizer_body():
       st.image(avg_uninfected, caption='Uninfected Cell - Average and Variability')
       st.write("---")
 
-    if st.checkbox("Differences between average parasitized and average uninfected cells"):
+    if st.checkbox("Differences between average leaf with mildew and average healthy cherry leaf"):
           diff_between_avgs = plt.imread(f"outputs/{version}/avg_diff.png")
 
           st.warning(

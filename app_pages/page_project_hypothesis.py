@@ -6,9 +6,9 @@ def page_project_hypothesis_body():
     st.write("### Project Hypothesis and Validation")
 
     st.success(
-        f"* We suspect malaria parasitized cell have clear marks/signs, "
-        f"typically in the middle of the cell, that can differentiate, from a un-infected cell. \n\n"
-        f"* An Image Montage, shows that typically a parasitized cell has purplish marks across. "
+        f"* We suspect affected cherry leaves to have clear marks/signs, "
+        f"that are powdery looking patches, that can differentiate, from a healthy leaf. \n\n"
+        f"* An Image Montage, shows that typically an infected leaf has fungal infection across. "
         f"Average Image, Variability Image and Difference between Averages studies didn't reveal "
         f"any clear pattern to differentiate one to another."
 
