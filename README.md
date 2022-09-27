@@ -33,12 +33,31 @@ To save time in this process, the IT team suggested an ML system that is capable
 	- We want to build a binary classifier and generate reports.
 
 ## ML Business Case
-* In the previous bullet, you potentially visualized a ML task to answer a business requirement. You should frame the business case using the method we covered in the course.
+* The idea of the business is to create a study to visually differentiate cherry leaves between healthy and diseased with powdery mildew. 
+* The ideal outcome is to provide the business a reliable and high accuracy in predicting healthy or diseased cherry crop by using sample leaves. 
+* The output is reflected in a dashboard using streamlit and the team working in the business can easily upload images of a sample cherry leaf. It reduces the manual processes around predicting powdery mildew in the plantation.
+* Heuristics: The current diagnostic needs a well-experienced staff to perform a quality inspection to identify whether a sample cherry leaf is healthy or not. There is a possibility of human error in this part due because a new infection of powdery mildew in leaves cannot be detected by the human eye.
 
 
 ## Dashboard Design
-* List all dashboard pages and its content, either block of information or widgets, like: buttons, checkbox, image, or any other item that your dashboard library supports.
-* Eventually, during the project development, you may revisit your dashboard plan to update a give feature (for example, in the beginning of the project you were confident you would use a given plot to display an insight but eventually you needed to use another plot type).
+Streamlit was used for the project dashboard. It has a responsive design with a menu located on the left part of the page. These are the following:
+
+    1. Quick Project Summary
+    2. Cherry Leaves Visualizer
+    3. Mildew Detection
+    4. Project Hypothesis
+    5. ML Performance Metrics
+
+![Dashboard Menu](/media/menu.PNG)
+
+### QUICK PROJECT SUMMARY
+
+
+
+### CHERRY LEAVES VISUALIZER
+### MILDEW DETECTION
+### PROJECT HYPOTHESIS
+### ML PERFORMANCE METRICS
 
 
 ## Unfixed Bugs
