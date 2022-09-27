@@ -17,12 +17,20 @@ To save time in this process, the IT team suggested an ML system that is capable
 
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision to validate it (them).
+* We suspect affected cherry leaves to have clear marks/signs, that are powdery looking patches, that can differentiate from a healthy leaf. An Image Montage, shows that typically an infected leaf has fungal infection across. It is evidenced by an opaqueness characteristic along the venules of the leaves.
+    * A machine learning model was used in investigating it. The hypothesis classifies a sample as a healthy leaf or a leaf that is affected with powdery mildew. The algorithm achieves the recognition of pattern with training, validation and test ratio of 0.70, 0.10 and 0.20 respectively.
 
 
 ## Rationale to map the business requirements to the Data Visualizations and ML tasks
-* List your business requirements and a rationale to map them to the Data Visualizations and ML tasks.
 
+* **Business Requirement 1**: The client is interested in conducting a study to visually differentiate a cherry leaf that is healthy and that contains powdery mildew.
+    - We will display the "mean" and "standard deviation" images for healthy and infected leaves.
+    - We will display the difference between an average leaf with powdery mildew and an average healthy cherry leaf.
+    - We will display a image montage for either healthy or diseased leaves.
+
+* **Business Requirement 2**: The client is interested to predict if a cherry leaf is healthy or contains powdery mildew.
+    - We want to predict if a given sample is diseased with powdery mildew or not. 
+	- We want to build a binary classifier and generate reports.
 
 ## ML Business Case
 * In the previous bullet, you potentially visualized a ML task to answer a business requirement. You should frame the business case using the method we covered in the course.
