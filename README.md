@@ -113,25 +113,17 @@ This section shows the label frequencies for train, validation and test sets. Al
 
 ## Credits 
 
-* In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
+* The template provided by Code Institute was used in the creation of this whole project. It can be downloaded from [Code Institute Solutions](https://github.com/Code-Institute-Solutions/milestone-project-mildew-detection-in-cherry-leaves)
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The dataset was downloaded from [Kaggle](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves)
 
-https://en.wikipedia.org/wiki/Powdery_mildew
+- Some information used in the project were taken from these websites:
 
-http://treefruit.wsu.edu/crop-protection/disease-management/cherry-powdery-mildew/#:~:text=Powdery%20mildew%20of%20sweet%20and,1).
+    * https://en.wikipedia.org/wiki/Powdery_mildew
 
-### Media
+    * http://treefruit.wsu.edu/crop-protection/disease-management/cherry-powdery-mildew/#:~:text=Powdery%20mildew%20of%20sweet%20and,1
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
-
-
-## Acknowledgements (optional)
-* In case you would like to thank the people that provided support through this project.
+## Acknowledgements
+* Big thanks to my Code Institute mentor Rohit for providing guidance in making this project.
