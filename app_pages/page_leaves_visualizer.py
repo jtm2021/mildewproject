@@ -24,10 +24,10 @@ def page_leaves_visualizer_body():
       st.warning(
         f"* We notice the average and variability images show "
         f"patterns where we could intuitively differentiate one to another. " 
-        f"A difference in color pigment of the average images is seen for both labels.")
+        f" A difference in color pigment of the average images is seen for both labels.")
 
-      st.image(avg_parasitized, caption='Parasitized Cell - Avegare and Variability')
-      st.image(avg_uninfected, caption='Uninfected Cell - Average and Variability')
+      st.image(avg_parasitized, caption='Diseased Leaf - Average and Variability')
+      st.image(avg_uninfected, caption='Healthy Leaf - Average and Variability')
       st.write("---")
 
     if st.checkbox("Differences between average leaf with mildew and average healthy cherry leaf"):
@@ -36,7 +36,7 @@ def page_leaves_visualizer_body():
           st.warning(
             f"* We notice this study show "
             f"patterns where we could intuitively differentiate one to another."
-            f"There is opaqueness across the leaf seen in leaves with powdery mildew. ")
+            f" There is opaqueness across the leaf seen in leaves with powdery mildew. ")
           st.image(diff_between_avgs, caption='Difference between average images')
 
     if st.checkbox("Image Montage"): 

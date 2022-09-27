@@ -51,17 +51,36 @@ Streamlit was used for the project dashboard. It has a responsive design with a 
 ![Dashboard Menu](/media/menu.PNG)
 
 ### QUICK PROJECT SUMMARY
+The summary provides general information about powdery mildew in cherry leaves. It has information about the dataset used for the project. A link is also provided if the user wants to know more information about the project. The business requirements are stated on the same page.
 
-
+![Summary](/media/summary.PNG)
 
 ### CHERRY LEAVES VISUALIZER
+This section will answer the first business requirement. It has three checkboxes as seen on the following image that provide more information when ticked.
+
+![Visualizer](/media/visualizer.PNG)
+![Variability](/media/visualizer1.PNG)
+![Average](/media/visualizer2.PNG)
+![Image Montage Healthy](/media/visualizerhealthy.PNG)
+![Image Montage Diseased](/media/visualizerdiseased.PNG)
+
 ### MILDEW DETECTION
+This part evaluates an uploaded image whether it's healthy or affected by powdery mildew. A widget (file uploader) is displayed. With this, the user can upload an image or a batch of images. After succesfully uploading a file/files, a prediction follows, indicating whether it is healthy or infected by powdery mildew. A report is also shown in in a table with its name and prediction results. A user can also download the report by clicking on the download link.
+
+![Mildew Detection](/media/detection.PNG)
+![Mildew Detection Result - Healthy](/media/detectionresult.PNG)
+![Mildew Detection Result - Diseased](/media/detectionresult2.PNG)
+
 ### PROJECT HYPOTHESIS
+The information in the box shows the project hypothesis.
+
+![Hypothesis](/media/hypothesis.PNG)
+
 ### ML PERFORMANCE METRICS
+This section shows the label frequencies for train, validation and test sets. Also, the model history and performance on test set is displayed.
 
+![ML Performance Metrics](/media/metrics.PNG)
 
-## Unfixed Bugs
-* You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
 ## Deployment
 ### Heroku
