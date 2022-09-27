@@ -4,7 +4,6 @@
 * The dataset contains more than thousand images taken from client's crop fields. The images show cherry leaves that are healthy and cherry leaves that contain powdery mildew, which is a fungal disease that affects a wide range of plants. The cherry plantation crop is one of their finest products in the portfolio and the company is concerned about supplying the market with a product of compromised quality.
 
 
-
 ## Business Requirements
 The cherry plantation crop from Farmy & Foods is facing a challenge where their cherry plantations have been presenting powdery mildew. Currently, the process is to manually verify if a given cherry tree contains powdery mildew. An employee spends around 30 minutes in each tree, taking a few samples of tree leaves and verifying visually if the leaf tree is healthy or has powdery mildew. If it has powdery mildew, the employee applies a specific compound to kill the fungus. The time spent applying this compound is 1 minute.  The company has thousands of cherry trees located in multiple farms across the country. As a result, this manual process is not scalable due to time spent in the manual process inspection.
 
@@ -96,7 +95,20 @@ This section shows the label frequencies for train, validation and test sets. Al
 
 
 ## Main Data Analysis and Machine Learning Libraries
-* Here you should list the libraries you used in the project and provide example(s) on how you used these libraries.
+* pandas 
+    - this libray was used to manipulate the data used for the project specifically on structuring data like the dataframe.
+* numpy 
+    - used to operate on objects and numbers
+* seaborn
+    - this library was used to make/style statistical graphics
+* matplotlib 
+    - this was used for plotting graphs
+* tensorflow
+    - this library was used for neural network operations in the project
+* keras
+    - used for model tuning
+* streamlit
+    - used for easy development and deployment of the project dashboard.
 
 
 ## Credits 
