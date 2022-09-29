@@ -33,7 +33,9 @@ To save time in this process, the IT team suggested an ML system that is capable
 
 ## ML Business Case
 * The idea of the business is to create a study to visually differentiate cherry leaves between healthy and diseased with powdery mildew. 
-* The ideal outcome is to provide the business a reliable and high accuracy in predicting healthy or diseased cherry crop by using sample leaves. 
+* The ideal outcome is to provide the business a reliable and high accuracy in predicting healthy or diseased cherry crop by using sample leaves.
+* The model success metrics are 
+    * Accuracy of 84% or above on the test set
 * The output is reflected in a dashboard using streamlit and the team working in the business can easily upload images of a sample cherry leaf. It reduces the manual processes around predicting powdery mildew in the plantation.
 * Heuristics: The current diagnostic needs a well-experienced staff to perform a quality inspection to identify whether a sample cherry leaf is healthy or not. There is a possibility of human error in this part due because a new infection of powdery mildew in leaves cannot be detected by the human eye.
 
@@ -126,4 +128,4 @@ This section shows the label frequencies for train, validation and test sets. Al
     * http://treefruit.wsu.edu/crop-protection/disease-management/cherry-powdery-mildew/#:~:text=Powdery%20mildew%20of%20sweet%20and,1
 
 ## Acknowledgements
-* Big thanks to my Code Institute mentor Rohit for providing guidance in making this project.
+* Big thanks to my Code Institute mentor Rohit and tutor Sean for providing guidance in making this project.
