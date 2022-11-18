@@ -84,7 +84,7 @@ This section shows the label frequencies for train, validation and test sets. Al
 ## Deployment
 ### Heroku
 
-* The App live link is: https://mildew-detection.herokuapp.com/ 
+* The App live link is: https://mildew-project.onrender.com
 * The project was deployed to Heroku using the following steps.
 
 1. Log in to Heroku and create an App
