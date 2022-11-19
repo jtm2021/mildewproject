@@ -82,16 +82,34 @@ This section shows the label frequencies for train, validation and test sets. Al
 
 
 ## Deployment
-### Heroku
+- The project was initially deployed using [Heroku](https://www.heroku.com). However, due to the discontuation of their free services, the project was re-deployed using [Render](https://www.render.com). Here are the steps below:
+    1. Open a workspace in your repo and delete `Procfile` and `runtime.txt`. Add, commit and push your changes to Github.
+    2. Navigate to Render.com to create a web service by clicking "New+".
+    3. Click “Web Service”.
+    4. Search for relevant repo and click “Connect”. and ensure the following settings match.
+        <img src="https://res.cloudinary.com/dborxc531/image/upload/v1668850241/README/deployment_settings_ddqblf.png">
+    5. Set the BUILD COMMAND to:
+        `pip install -r requirements.txt && ./setup.sh`
+    6. Set the BUILD COMMAND to:
+        `streamlit run app.py`
+    7. Ensure the Free plan $0/month is selected.
+    8. Scroll down and click "Advanced"
+    9. Click “Add Environment Variable” and input the following:
+        <img src="https://res.cloudinary.com/dborxc531/image/upload/v1668853081/README/variables_sljcaz.png">
+    10. Click “Create Web Service”.
+    11. Wait for deployment…
+    12. Deployment completed!
+    13. Open the deployed site via the link below:
+            https://mildew-project.onrender.com
 
-* The App live link is: https://mildew-project.onrender.com
-* The project was deployed to Heroku using the following steps.
+### (OLD) Heroku Deployment Process
+    The project was deployed to Heroku using the following steps.
 
-1. Log in to Heroku and create an App
-2. At the Deploy tab, select GitHub as the deployment method.
-3. Select your repository name and click Search. Once it is found, click Connect.
-4. Select the branch you want to deploy, then click Deploy Branch.
-5. The deployment process should happen smoothly in case all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
+    1. Log in to Heroku and create an App
+    2. At the Deploy tab, select GitHub as the deployment method.
+    3. Select your repository name and click Search. Once it is found, click Connect.
+    4. Select the branch you want to deploy, then click Deploy Branch.
+    5. The deployment process should happen smoothly in case all deployment files are fully functional. Click now the button Open App   on the top of the page to access your App.
 
 
 ## Main Data Analysis and Machine Learning Libraries
